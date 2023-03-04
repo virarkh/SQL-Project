@@ -1,8 +1,5 @@
 # Project SQL Superstore
 
-Table of Contents
-
-
 ### Case 1: Increase Sales Profit in Certain Product by Categories
 
 Analyzing sales data to identify the most sold and profitable product categories.
