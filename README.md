@@ -66,6 +66,6 @@ Xerox 1941                        |    1740.51|     704.592|
 Xerox 1893                        |  1434.6499|    619.3589|
 Xerox 1917                        |    1222.75|    574.6925|
 
-Didapatkan informasi bahwa total
+It is known that the Xerox product has the highest profit. Therefore, it can be concluded that Superstore can increase profits in the Office Supplies category by strengthening sales in the paper sub-category and especially in Xerox products. This can be achieved by increasing promotion, adding product stock, or offering discounts on certain products.
 
 
