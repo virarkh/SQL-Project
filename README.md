@@ -5,7 +5,7 @@
 Analyzing sales data to identify the most sold and profitable product categories.
 
 ```
-select category , sum(sales) as Total_Sales, sum(Profit) as Total_Profit
+select category, sum(sales) as Total_Sales, sum(Profit) as Total_Profit
 from "order" o 
 group by category 
 order by Total_Sales desc
@@ -65,7 +65,7 @@ Xerox 1941                        |    1740.51|     704.592|
 Xerox 1893                        |  1434.6499|    619.3589|
 Xerox 1917                        |    1222.75|    574.6925|
 
-It is known that the Xerox product has the highest profit. Therefore, it can be concluded that Superstore can increase profits in the Office Supplies category by strengthening sales in the paper sub-category and especially in Xerox products. This can be achieved by increasing promotion, adding product stock, or offering discounts on certain products.
+It is known that the **Xerox product** has the **highest profit**. Therefore, it can be concluded that Superstore can increase profits in the Office Supplies category by strengthening sales in the paper sub-category and especially in Xerox products. This can be achieved by increasing promotion, adding product stock, or offering discounts on certain products.
 
 <br>
 
@@ -136,6 +136,8 @@ Envelopes   |White Envelopes, White Envelopes with Clear Poly Window|           
 Paper       |Xerox 1933                                             |           5|     294.72|27.703679656982423|
 Furnishings |Nu-Dell Leatherette Frames                             |           3|  246.64801|27.150399843851726|
 
+It is known that there are products that have profits below average. Therefore, Superstore needs to promote these products specifically to increase sales and provide a greater contribution to the company's profitability.
+
 <br>
 
 ### Case 3: Analyzing Sales Performance by Product Category in 2020.
@@ -163,6 +165,6 @@ Office Supplies|          7676|61.53%    |
 Furniture      |          2437|19.53%    |
 Technology     |          2363|18.94%    |
 
-From the above, it can be seen that the office supplies category is the best-selling product category in 2020 with a total sales of 7676 products or around 61.53% of the total products sold. 
+From the above, it can be seen that the **Office Supplies** category is the **best-selling** product category in **2020** with a total sales of **7676 products** or **around 61.53%** of the total products sold. 
 
 The Superstore can optimize sales in product categories with lower sales percentages such as the technology category by increasing promotion, adding stocks, or offering discounts on certain products. In addition, the Superstore can also focus on product categories with the highest sales percentages to increase revenue and profits.
