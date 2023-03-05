@@ -168,3 +168,24 @@ Technology     |          2363|18.94%    |
 From the above, it can be seen that the **Office Supplies** category is the **best-selling** product category in **2020** with a total sales of **7676 products** or **around 61.53%** of the total products sold. 
 
 The Superstore can optimize sales in product categories with lower sales percentages such as the technology category by increasing promotion, adding stocks, or offering discounts on certain products. In addition, the Superstore can also focus on product categories with the highest sales percentages to increase revenue and profits.
+
+<br>
+
+### Case 4: Analyze sales performance in each segment for the city of Los Angeles in Q4 2019.
+
+```
+select c.segment, count(o.quantity) as Total_Orders, sum(o.sales) as Total_Sales
+from "order" o 
+inner join customer c on c.customer_id = o.customer_id 
+where c.city = 'Los Angeles' and o.order_date between '2019-10-01' and '2019-12-31'
+group by c.segment 
+order by Total_Orders desc
+```
+
+segment    |Total_Orders|Total_Sales|
+-----------|------------|-----------|
+Consumer   |         787|  152452.11|
+Corporate  |         382|  109949.29|
+Home Office|         229|  40784.977|
+
+It is known that the sales in Los Angeles in Q4 2019 based on its segments, the Consumer Segment received the most orders and gained the highest revenue. Superstores can focus their sales on the Consumer Segment but also need to increase sales in the Corporate and Home Office Segments.
