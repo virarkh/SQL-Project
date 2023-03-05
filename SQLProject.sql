@@ -69,38 +69,3 @@ inner join customer c on c.customer_id = o.customer_id
 where c.city = 'Los Angeles' and o.order_date between '2019-10-01' and '2019-12-31'
 group by c.segment 
 order by Total_Orders desc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
